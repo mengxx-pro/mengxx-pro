@@ -1,4 +1,4 @@
-package leetcode03;
+package leetcode.leetcode03;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -9,7 +9,7 @@ import java.util.HashSet;
  * @program: algorithm
  * @description:
  *
- * åˆ©ç”¨æ»‘åŠ¨çª—å£çš„æ€æƒ³ï¼Œå½“å³è¾¹çš„å‡ºç°åœ¨seté›†åˆä¸­ ï¼Œçª—å£éœ€è¦å‘å³ æ»‘åŠ¨(å·¦è¾¹æŒ‡é’ˆå¯¹åº”å…ƒç´ å»é™¤æ‰ï¼Œå³è¾¹çš„ä¸èƒ½åŠ è¿›å»ï¼Œéœ€è¦åˆ¤æ–­åå†åŠ å…¥)
+ * ÀûÓÃ»¬¶¯´°¿ÚµÄË¼Ïë£¬µ±ÓÒ±ßµÄ³öÏÖÔÚset¼¯ºÏÖĞ £¬´°¿ÚĞèÒªÏòÓÒ »¬¶¯(×ó±ßÖ¸Õë¶ÔÓ¦ÔªËØÈ¥³ıµô£¬ÓÒ±ßµÄ²»ÄÜ¼Ó½øÈ¥£¬ĞèÒªÅĞ¶ÏºóÔÙ¼ÓÈë)
  * @author: mengxiangxing
  * @create: 2021-07-18 15:01
  **/

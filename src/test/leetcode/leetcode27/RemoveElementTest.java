@@ -1,4 +1,4 @@
-package leetcode27;
+package leetcode.leetcode27;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;

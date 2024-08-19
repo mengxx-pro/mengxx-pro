@@ -1,12 +1,12 @@
-package java.sumArray;
+package leetcode.sumArray;
 
 public class sumArray {
     public static void main(String[] args) {
         int[] array = new int[]{13, -2, -11, -1, 5, 2, 5};
-        //è¿ç»­çš„å­æ•°ç»„ï¼Œæ±‚å„ä¸ªå­æ•°ç»„ç›¸åŠ ä¹‹å’Œåçš„æœ€å¤§å€¼
+        //Á¬ĞøµÄ×ÓÊı×é£¬Çó¸÷¸ö×ÓÊı×éÏà¼ÓÖ®ºÍºóµÄ×î´óÖµ
 
         /**
-         * 1.åŒå¾ªç¯æ¥è·å–,æš´åŠ›æ³•
+         * 1.Ë«Ñ­»·À´»ñÈ¡,±©Á¦·¨
          */
       /*  int max = array[0] + array[1];
         for (int i = 0; i < array.length - 1; i++) {
@@ -22,25 +22,25 @@ public class sumArray {
                 }
             }
         }
-        System.out.println("æœ€å¤§å€¼ä¸ºï¼š" + max);*/
+        System.out.println("×î´óÖµÎª£º" + max);*/
 
 
         /**
-         * 2. åˆ©ç”¨å½“å‰æœ€å¤§å€¼å’Œå…¨å±€æœ€å¤§å€¼çš„æ¯”è¾ƒæ¥åŒºåˆ†
-         *  2.1 å¦‚æœå‰è¾¹çš„å­æ•°ç»„åŠ ä¸Šå½“å‰çš„æ•°å¤§äºå½“å‰çš„æ•°åˆ™è®¤ä¸ºåº”è¯¥åŠ ä¸Š
-         *  2.2 å¦åˆ™å°±é‡æ–°è®°å½•å½“å‰æœ€å¤§å€¼ä¸ºå½“å‰æ•°å­—
+         * 2. ÀûÓÃµ±Ç°×î´óÖµºÍÈ«¾Ö×î´óÖµµÄ±È½ÏÀ´Çø·Ö
+         *  2.1 Èç¹ûÇ°±ßµÄ×ÓÊı×é¼ÓÉÏµ±Ç°µÄÊı´óÓÚµ±Ç°µÄÊıÔòÈÏÎªÓ¦¸Ã¼ÓÉÏ
+         *  2.2 ·ñÔò¾ÍÖØĞÂ¼ÇÂ¼µ±Ç°×î´óÖµÎªµ±Ç°Êı×Ö
          */
-        //å½“å‰æœ€å¤§å€¼
+        //µ±Ç°×î´óÖµ
         int currentMax = array[0] +array[1];
-        //å…¨å±€æœ€å¤§å€¼
+        //È«¾Ö×î´óÖµ
         int globalMax = array[0]+array[1];
         for (int i = 2; i < array.length; i++) {
             currentMax =Math.max(currentMax+array[i],array[i]);
-            System.out.println("å½“å‰æœ€å¤§å€¼ä¸ºï¼š" + currentMax);
+            System.out.println("µ±Ç°×î´óÖµÎª£º" + currentMax);
             globalMax =Math.max(currentMax,globalMax);
-            System.out.println("å½“å‰å…¨å±€æœ€å¤§å€¼ä¸ºï¼š" + globalMax);
+            System.out.println("µ±Ç°È«¾Ö×î´óÖµÎª£º" + globalMax);
         }
-        System.out.println("====æœ€å¤§å€¼ä¸ºï¼š" + globalMax);
+        System.out.println("====×î´óÖµÎª£º" + globalMax);
     }
 
 

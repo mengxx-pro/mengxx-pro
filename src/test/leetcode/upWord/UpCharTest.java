@@ -1,4 +1,4 @@
-package upWord;
+package leetcode.upWord;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;

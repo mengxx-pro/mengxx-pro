@@ -1,4 +1,4 @@
-package leetcode剑指Offer53;
+package leetcode.leetcode剑指Offer53;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;

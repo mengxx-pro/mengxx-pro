@@ -1,4 +1,4 @@
-package leetcode剑指Offer53p2;
+package leetcode.leetcode剑指Offer53p2;
 
 class Solution53Test {
 

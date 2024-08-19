@@ -1,4 +1,4 @@
-package leetcode706;
+package leetcode.leetcode706;
 
 
 /**

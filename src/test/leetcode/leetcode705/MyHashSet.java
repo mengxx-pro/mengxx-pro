@@ -1,4 +1,4 @@
-package leetcode705;
+package leetcode.leetcode705;
 
 /**
  * @program: algorithm
